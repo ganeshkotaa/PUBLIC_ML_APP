@@ -1,6 +1,3 @@
-
-# -*- coding: utf-8 -*-
-
 import pickle
 import streamlit as st
 
@@ -202,11 +199,6 @@ if selected == "Parkinsons Prediction":
             parkinsons_diagnosis = "The person does not have Parkinson's disease"
         
     st.success(parkinsons_diagnosis)
-
-
-
-
-
 
 
 
